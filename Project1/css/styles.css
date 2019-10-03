@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Roboto Mono', monospace;
-    background-color: darkgrey;
+    background-color: lightskyblue;
     margin: 0;
     padding: 0;
 }
@@ -17,7 +17,7 @@ body{
 /*Header*/
 header{
     grid-area: header;
-    background-color: grey;
+    background-color: lightblue;
     color: white;
     font-size: 32px;
 }
@@ -48,7 +48,7 @@ article p{
 /*Footer*/
 footer{
     grid-area: footer;
-    background-color: grey;
+    background-color: lightblue;
     color: white;
 }
 
@@ -83,7 +83,7 @@ a:active{
 }
 
 a:hover{
-    color: lightgrey;
+    color: lightskyblue;
 }
 
 a:link{
