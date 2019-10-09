@@ -19,7 +19,8 @@ header{
     grid-area: header;
     background-color: lightblue;
     color: white;
-    font-size: 32px;
+    font-size: 14px;
+    padding-right: 0;
 }
 
 header .left{
@@ -43,6 +44,7 @@ article h1{
 
 article p{
     padding-left: 2rem;
+    padding-right: 1rem;
 }
 
 /*Footer*/
@@ -88,4 +90,57 @@ a:hover{
 
 a:link{
     color: white;
+}
+
+/*Image*/
+img{
+    padding-left: 2rem;
+    margin-top: 0;
+}
+
+.imgdesc{
+    margin-top: 0;
+    padding-bottom: 2rem;
+    width: 288px;
+}
+
+/*Placeholder text*/
+article.placeholder{
+    text-align: center;
+    font-size: 32px;
+}
+
+p.placeholder{
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*Big Screen*/
+@media screen and (min-width: 615px){
+    .footerdoc{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 480px){
+    header{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 745px){
+    header{
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    article p{
+        padding-left: 2rem;
+        padding-right: 30%;
+    }
 }
